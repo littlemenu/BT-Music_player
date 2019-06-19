@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="silderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="8Og-83-mat"/>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="AdB-9p-vve"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTh-Ua-uoC">
@@ -47,9 +47,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="btnPlayPause" destination="FTh-Ua-uoC" id="Wi6-gW-m7s"/>
-                        <outlet property="lblTime" destination="wfp-cr-odw" id="hXU-jD-JVb"/>
-                        <outlet property="sliderProgress" destination="lSL-Dv-Brc" id="gZR-om-Rcm"/>
+                        <outlet property="playPauseButton" destination="FTh-Ua-uoC" id="fln-3I-D3I"/>
+                        <outlet property="progressSlider" destination="lSL-Dv-Brc" id="fRS-Lg-IYe"/>
+                        <outlet property="timeLabel" destination="wfp-cr-odw" id="AVU-AA-xia"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
